@@ -1,0 +1,27 @@
+.navbar-light .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #EDC601; 
+}
+
+/* Background image section */
+.center-image {
+    background: url('https://courses.ics.hawaii.edu/ics314f24/morea/ui-frameworks/wod-aloha-beer-kakaako.png') no-repeat center center;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #EDC601; /* Text color */
+    text-align: left;
+}
+
+.center-image h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.footer {
+    background-color: #EDC601; /* Yellow background */
+    padding: 100px 0; /* Padding for top and bottom */
+}
